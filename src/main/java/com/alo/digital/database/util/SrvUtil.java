@@ -9,10 +9,6 @@ import java.io.InputStreamReader;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * Execute custom command (ex. restart a running service) with some delay.
- * Created by {@code juan.guerrero}
- */
 public class SrvUtil {
 
     private static Logger logger = LoggerFactory.getLogger(SrvUtil.class);
